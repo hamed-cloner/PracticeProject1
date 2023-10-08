@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Arrays;
 
 class numGenerator {
@@ -34,13 +35,22 @@ public class PracticeProject1 {
         }
 
         // calculate the sum of Odd numbers in array
-
         int oddSum = 0;
         for(int i = 0; i < array.length ; i++ ){
             if(array[i] % 2 != 0 ){
                 oddSum += array[i];
             }
         }
+
+        //create a list of numbers devisible by 5 from array
+        ArrayList<Integer> devisible = new ArrayList<Integer>();
+        for(int i = 0 ; i < array.length ; i++){
+            if(array[i] % 5 == 0){
+                devisible.add(array[i]);
+            }
+
+        }
+
 
     }
 

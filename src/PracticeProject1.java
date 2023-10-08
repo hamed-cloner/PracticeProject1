@@ -41,8 +41,6 @@ public class PracticeProject1 {
                 oddSum += array[i];
             }
         }
-        System.out.println(sum);
-        System.out.println(oddSum);
 
     }
 

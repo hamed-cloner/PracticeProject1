@@ -50,7 +50,9 @@ public class PracticeProject1 {
             }
 
         }
-
+        // sort array numbers in assending order
+        Arrays.sort(array);
+        System.out.println(Arrays.toString(array));
 
     }
 
